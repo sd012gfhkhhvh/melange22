@@ -116,7 +116,7 @@ h6 {
   height: 5px;
   background: #f82249;
   bottom: 0;
-  
+
 }
 
 .section-header h2 {
@@ -215,12 +215,12 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -277,11 +277,11 @@ h6 {
   color: #fff;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 8px;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
   content: "";
   position: absolute;
   width: 0;
@@ -294,8 +294,8 @@ h6 {
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
   visibility: visible;
   width: 100%;
 }
@@ -345,7 +345,7 @@ h6 {
   border-radius: 3px;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   background: #f82249;
   color: #fff;
 }
@@ -908,11 +908,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("https://www.nsec.ac.in/images/i-Green%20campus_IMG_20190125_155218.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 #venue .venue-info:before {
@@ -926,6 +926,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 36px;
   font-weight: 700;
   color: #fff;
@@ -1218,7 +1221,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
@@ -1548,6 +1551,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
+
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
